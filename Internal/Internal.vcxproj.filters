@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\StringH.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\buffer.c">
+      <Filter>MH</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\hde32.c">
+      <Filter>MH</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\hde64.c">
+      <Filter>MH</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\hook.c">
+      <Filter>MH</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\hookmain.cpp">
+      <Filter>MH</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\trampoline.c">
+      <Filter>MH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SDK\SDK\Basic.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SDK\SDK\Engine_functions.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SDK\SDK\HDCoreUGC_functions.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SDK\SDK\HDMain_functions.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SDK\SDK\DonkehFramework_functions.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SDK\SDK\CoreUObject_functions.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="MH">
+      <UniqueIdentifier>{086a298c-759b-4ac3-ab59-23af261c17d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{82bebf5c-3823-4436-931e-11822ecc7a28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{9db447fb-85e1-45c0-9a4b-4410a58dec9f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\pch.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\StringH.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\buffer.h">
+      <Filter>MH</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\framework.h">
+      <Filter>MH</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\hde32.h">
+      <Filter>MH</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\hde64.h">
+      <Filter>MH</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\hookmain.h">
+      <Filter>MH</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\MinHook.h">
+      <Filter>MH</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\pstdint.h">
+      <Filter>MH</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\resource.h">
+      <Filter>MH</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\table32.h">
+      <Filter>MH</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\table64.h">
+      <Filter>MH</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\trampoline.h">
+      <Filter>MH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\PropertyFixup.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\SDK.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\SDK\Basic.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\SDK\Engine_classes.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\SDK\Engine_parameters.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\SDK\Engine_structs.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\SDK\HDCoreUGC_classes.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\SDK\HDCoreUGC_parameters.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\SDK\HDCoreUGC_structs.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\SDK\HDMain_classes.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\SDK\HDMain_parameters.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\SDK\HDMain_structs.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\SDK\DonkehFramework_classes.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\SDK\DonkehFramework_parameters.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\SDK\DonkehFramework_structs.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\SDK\CoreUObject_classes.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\SDK\CoreUObject_parameters.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\SDK\CoreUObject_structs.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheat.h" />
+    <ClInclude Include="Hook.h" />
+    <ClInclude Include="Menu.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MinHook\minhook.def">
+      <Filter>MH</Filter>
+    </None>
+  </ItemGroup>
+</Project>
